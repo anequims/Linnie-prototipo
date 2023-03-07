@@ -2,7 +2,7 @@ const express = require('express');
 const skirtRouter = express.Router();
 
 skirtRouter.get('/', (req, res) => {
-  res.render('skirtPage')
+  res.render('skirt_page')
 })
 
 module.exports = skirtRouter;

@@ -2,7 +2,7 @@ const express = require('express');
 const signinRouter = express.Router();
 
 signinRouter.get('/', (req, res) => {
-  res.render('signinPage')
+  res.render('signin_page')
 })
 
 module.exports = signinRouter;
