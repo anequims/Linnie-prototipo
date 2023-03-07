@@ -15,13 +15,13 @@ const userEditRouter = require('./routes/useredit_router');
 router.use(express.static('public'))
 
 router.use('/', homeRouter);
-router.use('/explorePage', exploreRouter);
-router.use('/signinPage', signinRouter);
-router.use('/signupPage', signupRouter);
-router.use('/skirtPage', skirRouter);
-router.use('/templatesPage', templatesRouter);
-router.use('/userPage', userRouter);
-router.use('/userEditPage', userEditRouter);
+router.use('/explore_page', exploreRouter);
+router.use('/signin_page', signinRouter);
+router.use('/signup_page', signupRouter);
+router.use('/skirt_page', skirRouter);
+router.use('/templates_page', templatesRouter);
+router.use('/user_page', userRouter);
+router.use('/useredit_page', userEditRouter);
   
 
 module.exports = router;  
