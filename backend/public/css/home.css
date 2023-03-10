@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     padding: 5px;
-    padding-left: 80px;
+    margin-left: 100px;
 }
 .area1 .a1-titulo{
     width: 40vw;
@@ -22,6 +22,7 @@
 .area2{
     display: flex;
     font-family: 'Prim';
+    margin-left: 300px;
 }
 .area2 a{
     display: flex;

@@ -1,23 +1,18 @@
-        /* Botão de Criação */
-        .create-btn{
-            display: block; /* Hidden by default */
-            position: fixed; /* Fixed/sticky position */
-            color: #C25E84;
-            background-color: transparent;
-            bottom: 20px; /* Place the button at the bottom of the page */
-            right: 30px; /* Place the button 30px from the right */
-            z-index: 3; /* Make sure it does not overlap */
-            border-radius: 10px; /* Rounded corners */
-            font-size: 80px;
-        }
-        .create-btn:hover{
-            color: #FCD074;
+
+        .sidebar{
+            border-right: 5px solid rgba(117, 117, 117, 0.404);
         }
         .portfolio{
+            padding: 100px 200px;
+        }
+        .portfolio h1{
             font-family: 'Tommy'; font-size:3.5vw;
         }
+        .portfolio a {
+            margin: 20px 60px;
+        }
         
-        .card{
+        .portfolio img, .card{
             height: 480px;
             width: 310px;
             border-radius: 12px;
@@ -29,6 +24,25 @@
             height: 460px;
             width: 290px;
         }
-        .sidebar{
-            border-right: 5px solid rgba(117, 117, 117, 0.404);
+
+        /* Botão de Criação */
+        .create-btn{
+            display: block; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            color: #C25E84;
+            background-color: transparent;
+            bottom: 100px; /* Place the button at the bottom of the page */
+            right: 120px; /* Place the button 30px from the right */
+            z-index: 3; /* Make sure it does not overlap */
+            border-radius: 10px; /* Rounded corners */
+            font-size: 80px;
+        }
+        .create-btn .img-btn-hv{
+            display: none;
+        }
+        .create-btn:hover .img-btn{
+            display: none;
+        }
+        .create-btn:hover .img-btn-hv{
+            display: block;
         }
