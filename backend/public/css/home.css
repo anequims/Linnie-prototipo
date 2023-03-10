@@ -37,17 +37,12 @@
 }
 
 .molde{
-    width: 1400px;
-    height: 500px;
-    margin-left: -3.0px;
-    background-repeat: no-repeat;
-    background-image: url(../img/molde.png);
-    transform: translateZ(100deg);
+    width: 74vw;
+    height: 46vh;
 }
 .card{
     width: 240px;
     height: 320px;
-    padding: 100px 70px;
     background-color: #F7F7F8;
     border: 0;
     border-radius: 50px;
@@ -58,10 +53,12 @@
 .card img{
     position: relative;
     height: 140px;
-    width: 110px;
+    width: 120px;
+    margin: 100px 60px;
 }
 .card .membros{
-    overflow: hidden;
+    display: none;
+    margin: 86px 50px;
 }
 .card:hover{ 
     border: 1.8px solid;

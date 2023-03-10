@@ -13,39 +13,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
-
-    <!-- Icons -->
-    <script src="https://kit.fontawesome.com/561da19351.js" crossorigin="anonymous"></script>
-
-    <style>
-        
-        /* Botão de Criação */
-        .create-btn{
-            display: block; /* Hidden by default */
-            position: fixed; /* Fixed/sticky position */
-            color: #C25E84;
-            background-color: transparent;
-            bottom: 20px; /* Place the button at the bottom of the page */
-            right: 30px; /* Place the button 30px from the right */
-            z-index: 3; /* Make sure it does not overlap */
-            border-radius: 10px; /* Rounded corners */
-            font-size: 80px;
-        }
-        .create-btn:hover{
-            color: #FCD074;
-        }
-        .portfolio{
-            font-family: 'Tommy'; font-size:3.5vw;
-        }
-        .card{
-            height: 50vh; width: 240px;
-        }
-        .sidebar{
-            border-right: 5px solid rgba(117, 117, 117, 0.404);
-        }
-
-      </style>
-
+    <link rel="stylesheet" href="/css/user.css">
 </head>
 <body>
     <!-- Incluindo a navbar na página -->
@@ -57,7 +25,7 @@
                 <div class="col-md-3 p-5 sidebar">
 
                     <div class="row d-flex justify-content-center">
-                        <img src="/img/linniê_logo_TCC_-_VERSÃO_3.png" alt="foto de Perfil inteira" style="width: 16vw;"> 
+                        <img src="/img/avatar_2.png" alt="foto de Perfil inteira" style="width: 16vw; margin-bottom: 30px;"> 
                     </div>
 
                     <div class="row d-flex justify-content-center">
@@ -76,12 +44,14 @@
                     <div class="row p-3">
                         <!-- Projetos -->
                         <h1 class="ms-5 mb-5 text-center portfolio">Portfólio</h1>
-
                         <!-- Cards representando os projetos -->
                         <% for ($i=0; $i < 12; $i++) {%>
-                        <div class="col-md-4 mb-5">
-                            <a href="">
-                                <div class="shadow-lg card card-link"><img src="" alt=""></div>
+                        <div class="col-md-4 m-0">
+                            <a href="" style="margin: 20px 60px;">
+                                <div class="shadow-lg card card-link">
+                                    <img src="/img/ex_post.png" alt="Exemplo de postagem" class="card-img-overlay">
+                                    <div class="borda"></div>
+                                </div>
                             </a>
                         </div>
                         <% }%>
@@ -90,7 +60,7 @@
 
             </div>
         </div>
-        <a href="/templatesPage" class="create-btn"><i class="fa-solid fa-circle-plus"></i></a>
+        <a href="/templates_page" class="create-btn"><img src="/img/botao.png" alt=""></a>
 
     
     <!-- Option 1: Bootstrap Bundle with Popper-->
