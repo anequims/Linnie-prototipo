@@ -26,7 +26,7 @@
         <div class="container-fluid">
             <div class="row">
             <!-- Informações do Perfil -->
-                <div class="col-md-3 p-5 sidebar">
+                <div class="col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 p-5 sidebar">
 
                     <div class="row d-flex justify-content-center">
                         <img src="/img/avatar_2.png" alt="foto de Perfil inteira" style="width: 16vw; margin-bottom: 30px;"> 
@@ -44,19 +44,19 @@
                     </div>
                 </div>
                 <!-- Área de Porfólio -->
-                <div class="col-md-9 portfolio">
+                <div class="col pb-3 portfolio">
                     <div class="row p-3">
                         <!-- Projetos -->
-                        <h1 class="ms-5 mb-5 text-center">Portfólio</h1>
+                        <h1 class="ms mb-5 text-center">Portfólio</h1>
                         <!-- Cards representando os projetos -->
                         <% for ($i=0; $i < 12; $i++) {%>
-                        <div class="col-md-4 m-0 bg-image">
-                            <a href="">
-                                <div class="shadow-lg card card-link">
-                                    <img src="/img/ex_post.png" alt="Exemplo de postagem">
-                                    <div class="borda mask card-img-overlay"></div>
-                                </div>
-                            </a>
+                        <div class="col-sm-7 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-5">
+                            <div class="shadow-lg card card-link">
+                                <a href="">
+                                        <img src="/img/ex_post.png" alt="Exemplo de postagem">
+                                        <div class="borda mask card-img-overlay"></div>
+                                </a>
+                            </div>
                         </div>
                         <% }%>
                     </div>

@@ -3,26 +3,25 @@
             border-right: 5px solid rgba(117, 117, 117, 0.404);
         }
         .portfolio{
-            padding: 100px 200px;
+            padding: 50px 4vw;
         }
         .portfolio h1{
             font-family: 'Tommy'; font-size:3.5vw;
         }
-        .portfolio a {
-            margin: 20px 60px;
-        }
-        
-        .portfolio img, .card{
-            height: 480px;
-            width: 310px;
+        .card, .card img{
+            margin: 0;
+            height: auto;
+            width: 17vw;
+            min-width: 216px;
             border-radius: 12px;
         }
         .borda{
             border: 4px dashed black;
             border-radius: 12px;
             margin: 9px;
-            height: 460px;
-            width: 290px;
+            height: auto;
+            width: 16vw;
+            min-width: 200px;
         }
 
         /* Botão de Criação */
